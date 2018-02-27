@@ -9,7 +9,8 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script:
+  scripts:
+  - apt-get install homework
   - curl -T helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb -ucezarnik:$BINTRAY_API_KEY "https://api.bintray.com/content/cezarnik/homework/helloworld/$TRAVIS_BUILD_NUMBER/helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
-
+ 
 
