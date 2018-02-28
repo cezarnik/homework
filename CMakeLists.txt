@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(helloworld VERSION 1.0.$ENV{TRAVIS_BUILD_NUMBER})
-#project(helloworld VERSION 12.2.12)
+project(helloworld VERSION 1.1.$ENV{TRAVIS_BUILD_NUMBER})
+#project(helloworld VERSION 12.0.12)
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
 configure_file(version.h.in version.h)

@@ -6,7 +6,6 @@ script:
   - cmake --build .
   - cmake --build . --target test
   - cmake --build . --target package
-  - cat version.h
 deploy:
   provider: script
   skip_cleanup: true
