@@ -1,6 +1,5 @@
 #include "lib.h"
 #include <algorithm>
-#include "version.h"
 std::string make_string(int val){
 	std::string res="";
 	do{
@@ -12,13 +11,13 @@ std::string make_string(int val){
 }
 std::string version(){
 	std::string res="";
-	std::string temp=make_string(V_MAJOR);
+	std::string temp=make_string(PROJECT_VERSION_MAJOR);
 	res+=temp;
 	res+=".";
-	temp=make_string(V_MINOR);
+	temp=make_string(PROJECT_VERSION_MINOR);
 	res+=temp;
 	res+=".";
-	temp=make_string(V_PATCH);
+	temp=make_string(PROJECT_VERSION_PATCH);
 	res+=temp;
 	return res;
 }

@@ -1,0 +1,3 @@
+/home/nick/Documents/OTUS/HW1/CMakeFiles/helloworld.dir
+/home/nick/Documents/OTUS/HW1/CMakeFiles/helloworld_cli.dir
+/home/nick/Documents/OTUS/HW1/CMakeFiles/test_helloworld.dir

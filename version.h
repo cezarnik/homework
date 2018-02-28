@@ -1,0 +1,5 @@
+#pragma once
+
+#define PROJECT_VERSION_PATCH 12
+#define PROJECT_VERSION_MINOR 2
+#define PROJECT_VERSION_MAJOR 12
