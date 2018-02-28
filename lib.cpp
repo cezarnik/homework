@@ -13,11 +13,11 @@ std::string version(){
 	std::string res="";
 	std::string temp=make_string(PROJECT_VERSION_MAJOR);
 	res+=temp;
-	res+=".";
+	/*res+=".";
 	temp=make_string(PROJECT_VERSION_MINOR);
 	res+=temp;
 	res+=".";
 	temp=make_string(PROJECT_VERSION_PATCH);
-	res+=temp;
+	res+=temp;*/
 	return res;
 }
