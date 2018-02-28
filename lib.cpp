@@ -2,9 +2,18 @@
 
 #include "version.h"
 
-int version(){
-	return PROJECT_VERSION_PATCH;
-}
-std::string full_version(){
-	return PROJECT_VERSION;
+std::string version(){
+	std::string res="";
+	char * a=itoa(PROJECT_VERSION_MAJOR);
+	std::string temp=std::string(a);
+	res+=temp;
+	res+=".";
+	a=itoa(PROJECT_VERSION_MINOR);
+	temp=std::string(a);
+	res+=temp;
+	res+=".";
+	a=itoa(PROJECT_VERSION_PATCH);
+	temp=std::string(a);
+	res+=temp;
+	return res;
 }

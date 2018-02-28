@@ -1,4 +1,4 @@
 #pragma once
 #include <string>
-int version();
-std::string full_version();
+#include <cstdlib>
+std::string version();
