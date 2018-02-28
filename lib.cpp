@@ -12,13 +12,13 @@ std::string make_string(int val){
 }
 std::string version(){
 	std::string res="";
-	std::string temp=make_string(PROJECT_VERSION_MAJOR);
+	std::string temp=make_string(V_MAJOR);
 	res+=temp;
 	res+=".";
-	temp=make_string(PROJECT_VERSION_MINOR);
+	temp=make_string(V_MINOR);
 	res+=temp;
 	res+=".";
-	temp=make_string(PROJECT_VERSION_PATCH);
+	temp=make_string(V_PATCH);
 	res+=temp;
 	return res;
 }
