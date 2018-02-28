@@ -7,6 +7,7 @@ std::string make_string(int val){
 		res+=('0'+val%10);
 		val/=10;
 	}while(val);
+	std::reverse(res.begin(),res.end());
 	return res;
 }
 std::string version(){
