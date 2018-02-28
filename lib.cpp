@@ -1,7 +1,7 @@
 #include "lib.h"
 #include <algorithm>
 #include "version.h"
-std::string make_string(int val){
+/*std::string make_string(int val){
 	std::string res="";
 	do{
 		res+=('0'+val%10);
@@ -21,4 +21,4 @@ std::string version(){
 	temp=make_string(PROJECT_VERSION_PATCH);
 	res+=temp;
 	return res;
-}
+}*/
